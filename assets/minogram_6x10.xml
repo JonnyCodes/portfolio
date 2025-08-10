@@ -3,7 +3,7 @@
     <info face="minogram_6x10" size="10" bold="0" italic="0"/>
     <common lineHeight="12" base="10" scaleW="78" scaleH="70" pages="1" packed="0"/>
     <pages>
-        <page id="0" file="minogram_6x10.png"/>
+        <page id="0" file="./minogram_6x10.png"/>
     </pages>
     <chars count="91">
 
