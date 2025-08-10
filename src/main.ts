@@ -50,20 +50,20 @@ class Game {
 
     public load() {
         return Promise.all([
-            Assets.load({alias: "board", src: "/assets/board.png", data: { scaleMode: 'nearest'} }),
-            Assets.load({alias: "pin_head", src: "/assets/pin_head.png", data: { scaleMode: "nearest" } }),
-            Assets.load({alias: "prize_machine", src: "/assets/prize_machine.png", data: { scaleMode: "nearest" } }),
-            Assets.load({alias: "dibz", src: "/assets/dibz.png", data: { scaleMode: "nearest" } }),
-            Assets.load({alias: "snail", src: "/assets/snail.png", data: { scaleMode: "nearest" } }),
-            Assets.load({alias: "pointer", src: "/assets/pointer.png", data: { scaleMode: "nearest" } }),
-            Assets.load({alias: "folder", src: "/assets/folder.png", data: { scaleMode: "nearest" } }),
-            Assets.load({alias: "paperclip", src: "/assets/paperclip.png", data: { scaleMode: "nearest" } }),
-            Assets.load({alias: "top_secret", src: "/assets/top_secret.png", data: { scaleMode: "nearest" } }),
-            Assets.load({alias: "website_icon", src: "/assets/website_icon.png", data: { scaleMode: "nearest" } }),
-            Assets.load({alias: "pixel_font_squarex6", src: "/assets/square_6x6.xml"}),
-            Assets.load({alias: "pixel_font_roundx6", src: "/assets/round_6x6.xml"}),
-            Assets.load({alias: "pixel_font_minogram", src: "/assets/minogram_6x10.xml"}),
-            Assets.load({alias: "pixel_font_thick", src: "/assets/thick_8x8.xml"})
+            Assets.load({alias: "board", src: "./assets/board.png", data: { scaleMode: 'nearest'} }),
+            Assets.load({alias: "pin_head", src: "./assets/pin_head.png", data: { scaleMode: "nearest" } }),
+            Assets.load({alias: "prize_machine", src: "./assets/prize_machine.png", data: { scaleMode: "nearest" } }),
+            Assets.load({alias: "dibz", src: "./assets/dibz.png", data: { scaleMode: "nearest" } }),
+            Assets.load({alias: "snail", src: "./assets/snail.png", data: { scaleMode: "nearest" } }),
+            Assets.load({alias: "pointer", src: "./assets/pointer.png", data: { scaleMode: "nearest" } }),
+            Assets.load({alias: "folder", src: "./assets/folder.png", data: { scaleMode: "nearest" } }),
+            Assets.load({alias: "paperclip", src: "./assets/paperclip.png", data: { scaleMode: "nearest" } }),
+            Assets.load({alias: "top_secret", src: "./assets/top_secret.png", data: { scaleMode: "nearest" } }),
+            Assets.load({alias: "website_icon", src: "./assets/website_icon.png", data: { scaleMode: "nearest" } }),
+            Assets.load({alias: "pixel_font_squarex6", src: "./assets/square_6x6.xml"}),
+            Assets.load({alias: "pixel_font_roundx6", src: "./assets/round_6x6.xml"}),
+            Assets.load({alias: "pixel_font_minogram", src: "./assets/minogram_6x10.xml"}),
+            Assets.load({alias: "pixel_font_thick", src: "./assets/thick_8x8.xml"})
         ]);
     }
 
