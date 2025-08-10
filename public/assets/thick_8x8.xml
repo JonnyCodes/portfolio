@@ -3,7 +3,7 @@
     <info face="thick_8x8" size="10" bold="0" italic="0"/>
     <common lineHeight="12" base="10" scaleW="104" scaleH="56" pages="1" packed="0"/>
     <pages>
-        <page id="0" file="thick_8x8.png"/>
+        <page id="0" file="./thick_8x8.png"/>
     </pages>
     <chars count="91">
         
