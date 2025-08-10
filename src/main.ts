@@ -328,6 +328,8 @@ class Game {
 }
 
 const game = new Game();
-await game.init();
-await game.load();
-await game.create();
+game.init().then(() => {
+    game.load().then(() => {
+        game.create();
+    })
+});
