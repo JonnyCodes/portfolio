@@ -141,6 +141,7 @@ export class DetailView extends Container {
         this._title.text = details.title;
         this._text.text = details.text;
 
+        this._link.text = "";
         if (details.link) {
             this._link.removeAllListeners();
             this._link.text = details.link;
